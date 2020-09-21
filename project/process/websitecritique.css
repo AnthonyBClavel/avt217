@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  	background: #EBEBEB;
+  	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  	width:960px;
+	margin: 0 auto;
+}
+
+h1 {
+	display: block;
+	background: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	margin-top: 25px;
+	padding: 25px;
+	border-radius: 25px;
+}
+
+h2 {
+	text-align: center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border-top: 6px double;
+	padding-top: 50px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border-radius: 25px;
+}
+
+p {
+	margin-top: 25px;
+	text-indent: 5%;
+}
