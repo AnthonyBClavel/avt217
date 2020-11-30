@@ -2,13 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Anthony Clavel's 3D Game Art Portfolio</title>
+<title>About Me</title>
 <!--below is the css for the entire website-->
 <link rel="stylesheet" href="css/portfoliowebsite.css">
 <!--below is the css for the fonts-->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Roboto&display=swap" rel="stylesheet">
-</head>
+<link rel="stylesheet" href="css/lightbox.css">
 
+</head>
 <body>
 	
 	<div id="wrapper">
@@ -20,14 +21,13 @@
 				<nav>
 				<div class="topnav" id="myTopnav">
 					
- 		    		<a href="homepage.html" id="current">Home</a>
+ 		    		<a href="homepage.html">Home</a>
   					<a href="portfoliopiece01.html">SciFi Ninja</a>
  					<a href="portfoliopiece02.html">Galaxy Boy</a>
   					<a href="portfoliopiece03.html">Medieval Tower</a>
   					<a href="portfoliopiece04.html">Soup Robot</a>
   					<a href="portfoliopiece05.html">Rusty Robot</a>
-  					<a href="about.html">About</a>
-					
+					<a href="about.html" id="current">About</a>
 				</div>
 				</nav>
 			
@@ -37,36 +37,39 @@
 			
 			<div id="row">
 				
-				<!--the line below will be a link to a demo reel via Vimeo.com (it works, it just needs the correct video id after "video/...")-->
-				<iframe src="https://player.vimeo.com/video/393672712" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br>
-				<!--the lines below will have a css effect when you hover over them-->
-				<div class="column">
-				<a href="portfoliopiece01.html"><img src="images/thumb_scifininjascene.jpg" id="img1" alt="SciFi Ninja Scene"></a>
+				<div id="portfoliopageheading">
+				<h1>About Me</h1>
 				</div>
+				
 				<div class="column">
-				<a href="portfoliopiece02.html"><img src="images/thumb_galaxyboyscene.jpg" id="img2" alt="Galaxy Boy Scene"></a>
+				<a><img src="images/headshot.jpg" id="headshot" alt="Anthony Clavel: Headshot"></a>
 				</div>
-				<div class="column">
-				<a href="portfoliopiece02.html"><img src="images/thumb_galaxyboy.jpg" id="img3" alt="Galaxy Boy"></a>
+				
+				<div id="content">
+				<p>Hey guys! I’m currently enrolled at George Mason University as a Computer Game Design major. I’m well experienced across various fields of game design, but I particularly specialize in 3D Game Art. In addition, I’m very passionate about creating and playing video games. If you’re interested in working together, feel free to contact me via email or through any of the socials down below!</p>
+				<div class="hyperlink"><b>Email:</b><p><a href="mailto:abclavel123@gmail.com">abclavel123@gmail.com</a></p></div>
 				</div>
-				<div class="column">
-				<a href="portfoliopiece01.html"><img src="images/thumb_scifininja.jpg" id="img4" alt="SciFi Ninja"></a>
+				
+				<div id="socials">
+				<h2>Socials</h2>
+				<div class="icons"><a href="https://sketchfab.com/AnthonyBClavel" target="_blank"><img src="images/sketchfabicon.png" id="social04" alt="Skecthfab"></a></div>
+				<div class="icons"><a href="https://vimeo.com/user96448543" target="_blank"><img src="images/vimeoicon.png" id="social03" alt="Vimeo"></a></div>
+				<div class="icons"><a href="https://www.artstation.com/anthony_clavel/profile" target="_blank"><img src="images/artstationicon02.png" id="social01" alt="ArtStation"></a></div>
+				<div class="icons"><a href="https://www.linkedin.com/in/anthonybclavel/" target="_blank"><img src="images/linkedinicon.png" id="social02" alt="LinkedIn"></a></div>
 				</div>
-				<div class="column">
-				<a href="portfoliopiece03.html"><img src="images/thumb_medievaltower.jpg" id="img5" alt="Medieval Tower"></a>
+				
+				<div id="resume">
+				<h2>Resume</h2>
+				<div class="hyperlink"><p><a href="Clavel_Resume_2020.pdf" target="_blank">Clavel_Resume_2020</a></p></div>
+				<div class="icons"><a href="Clavel_Resume_2020.pdf" target="_blank"><img src="images/downloadicon03.png" id="resume01" alt="Anthony Clavel's Resume"></a></div>
 				</div>
-				<div class="column">
-				<a href="portfoliopiece04.html"><img src="images/thumb_souprobot.jpg" id="img6" alt="Soup Robot"></a>
-				</div>
-				<div class="column">
-				<a href="portfoliopiece05.html"><img src="images/thumb_rustyrobot.jpg" id="img7" alt="Rusty Robot"></a>
-				</div>
-				<div class="column">
-				<a href="about.html"><img src="images/thumb_contact.jpg" id="img8" alt="Contact Card"></a>
+					
+				<div id="contactimage">		
+				<a href="images/contacthighlight.jpg" data-lightbox="photo"><img src="images/contacthighlight.jpg" id="img01" alt="Contact Card"></a>
 				</div>
 				
 			</div>
-			<!--row ends-->
+			<!--row02 ends-->
 		</main>
 		
 		<footer>
@@ -80,6 +83,6 @@
 		
 	</div>
 	<!--wrapper ends-->
-	
+	<script src="js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
